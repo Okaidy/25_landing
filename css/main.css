@@ -1,0 +1,63 @@
+/* Tu CSS va aqui */
+/* pantalla de  535px x 824px*/
+@media screen and (max-width: 535px) and (max-height: 824px) {
+	body{background: pink;}
+	section .col-6{
+		width: 100%;
+	}
+}
+
+header{
+	background: white;
+	padding:10px 0px;
+}
+.contenedor {
+	width:80%;
+	margin:auto;
+}
+.logo{
+	width:200px;
+	vertical-align:center;
+}
+ul{
+	list-style: none;
+}
+li{
+	float:right;
+	padding:10px;
+}
+a {
+	text-decoration: none;
+}
+h1{
+	font-size: 50px;
+}
+section{
+	background: gray;
+}
+footer{
+	background: white;
+	padding: 15px 0px;
+}
+.gray{
+	color: gray;
+}
+.blanca{
+	color: white;
+}
+.font-12{
+	font-size: 12px;
+}
+.pt-5{
+	padding-top: 5%;
+}
+.pb-7{
+	padding-bottom: 7%;
+}
+.light{
+	background: lightgray;
+	padding: 2%;
+}
+.pb-2{
+	padding-bottom: 2%;
+}
